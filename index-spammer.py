@@ -3,11 +3,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 print("PlayFab Spammer made by, @.index | https://discord.gg/GSWSahAmVU")
 
-TITLE = input("TitleId: ") # "83BF3" for tests
+TITLE = input("TitleId:4D72B ") # "83BF3" for tests
 COUNT = 5 # ~ 10K Users (with 16 cores) # (os.cpu_count() * 100 * COUNT will be result)
 CHARS = string.ascii_letters + string.digits
-URL = f"https://{TITLE}.playfabapi.com/Client/RegisterPlayFabUser"
-URL2 = f"https://{TITLE}.playfabapi.com/Client/LoginWithCustomID"
+URL = f"https://4D72B.playfabapi.com/Client/RegisterPlayFabUser"
+URL2 = f"https://4D72B}.playfabapi.com/Client/LoginWithCustomID"
 PASS = ''.join(random.choice(CHARS) for _ in range(23))
 SUCCESS = 0
 def spam():
